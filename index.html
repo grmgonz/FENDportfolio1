@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Portfolio Project</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-md-6 col-sm-4 col-xs-12">
+                    <a href="http://gabegonzales.co/" target="_blank">
+                        <img class="logo" src="images/robot.png" alt="grmg icon" height="90" width="90">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-8 col-xs-12 text-right text-uppercase">
+                    <h1 class="text-header"> Gabe Gonzales</h1>
+                    <h4 class="tagline"> Front-End Web Developer</h4>
+                </div>
+
+                <!-- Static navbar -->
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">PROJECT 1: Portfolio</a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="#">Home</a>
+                                </li>
+                                <li><a href="#feature">Featured Work</a>
+                                </li>
+                                <li><a href="#cont">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/.nav-collapse -->
+                    </div>
+                    <!--/.container-fluid -->
+                </nav>
+            </div>
+        </header>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="images/macbook.jpg" alt="welcome to my portfolio">
+            </div>
+        </div>
+
+
+        <div class="row" id="feature">
+            <div class="col-md-12">
+                <h2 class="text-feature"> Featured Work </h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+
+        <div class="row text-center" id="port">
+            <div class="col-md-4 col-sm-6">
+                <img class="img-responsive" src="images/nehaport.jpg" data-toggle="modal" data-target="#project1" alt="Neha in a bikini">
+                <h3> Neha Setlur </h3>
+                <a href="http://www.nehasetlur.com/" target="_blank">
+                    <p> View Site</p>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <img class="img-responsive" src="images/docport.jpg" data-toggle="modal" data-target="#project2" alt="Picture of tomato with DEATH OF CARBS written on it">
+                <h3>Death of Carbs</h3>
+                <a href="http://www.deathofcarbs.com/" target="_blank">
+                    <p> View Site</p>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <img class="img-responsive" src="images/samport.jpg" data-toggle="modal" data-target="#project3" alt="Sam performing open mic at a comedy club">
+                <h3>Sam Craig-de Boer</h3>
+                <a href="http://www.samanthacraigdeboer.com/" target="_blank">
+                    <p> View Site</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="row" id="cont">
+            <div class="col-md-12">
+                <h2 class="text-cont text-uppercase"> Contact </h2>
+                <p> If you have any questions, send me an email at: </p>
+                <a href="mailto:grmgonz@gmail.com"><h4>grmgonz@gmail.com </h4></a>
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-12">
+                    <p> Front-end Nanodegree Project 1: Portfolio by Gabe Gonzales</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="NehaModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="NehaModal">Neha Setlur</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/nehaport.jpg" alt="Neha in a bikini">
+                        <p>I designed this blog using Wordpress, utilizing HTML, CSS and PHP for customization.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="DocModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="DocModal">Death Of Carbs</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/docport.jpg" alt="Picture of tomato with DEATH OF CARBS written on it">
+                        <p> I designed this blog using Wordpress, utilizing HTML, CSS and PHP for customization. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="SamModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="SamModal">Samantha Craig-de Boer</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" alt="Sam performing open mic at a comedy club" src="images/samport.jpg">
+                        <p>I designed this blog using Wordpress, utilizing HTML, CSS and PHP for customization. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
